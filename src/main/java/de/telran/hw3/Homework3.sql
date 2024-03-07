@@ -1,6 +1,6 @@
 --Вывести данные о товарах не из категорий 2 и 4 и не от поставщиков 2 и 3 с ценой от 20 до 90 EUR (проекция: название, ценаснаценкой_6%)
 SELECT
-ProductName,Price, Price*.94 AS Price_down
+ProductName,Price, Price*.1.06 AS Price_down
 FROM Products
 WHERE
  	NOT CategoryID IN (2, 4)
