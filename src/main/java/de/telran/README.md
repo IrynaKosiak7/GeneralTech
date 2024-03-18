@@ -12,3 +12,6 @@
   
 - -[Homework 4]
 - задачи(https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework4.sql)
+
+- -[Homework 5]
+- описание схем БД (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework5.sql)
