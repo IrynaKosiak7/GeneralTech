@@ -28,12 +28,14 @@ JOIN Products ON Products.ProductID = OrderDetails.ProductID
     LIMIT 1
 
 --4. Вывести список стран, которые поставляют морепродукты
-SELECT
+SELECT DISTINCT
 Suppliers.Country
 FROM Products
 JOIN Suppliers ON Products.SupplierID = Suppliers.SupplierID
-    where
-    ProductName LIKE "%sea%"
+JOIN Categories ON Products.CategoryID = Categories.CategoryID
+where
+	CategoryName = "Seafood"
+
 
 
 --5. Вывести два самых дорогих товара из категории Beverages из USA
