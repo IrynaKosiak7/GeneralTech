@@ -15,3 +15,6 @@
 
 - -[Homework 5]
 - описание схем БД (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework5.sql)
+
+-[Homework 6]
+- завершение описания схем БД ()
