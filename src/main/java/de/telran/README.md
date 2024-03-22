@@ -18,3 +18,6 @@
 
 -[Homework 6]
 - завершение описания схем БД (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework6.sql)
+
+-[Homework 7]
+- В рамках БД "онлайн-магазин" (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework7.sql)
