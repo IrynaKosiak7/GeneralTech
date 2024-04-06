@@ -48,3 +48,5 @@ JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
 GROUP BY Employees.LastName
 
+--7. Описание приложенной схемы БД "аудио-хостинг" функционалом плейлистов и групповых чатов
+https://dbdiagram.io/d/Audio-hosting-6611298103593b6b6156818d
