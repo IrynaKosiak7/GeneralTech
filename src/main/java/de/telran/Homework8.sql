@@ -24,11 +24,11 @@ GROUP BY Employees.LastName
 
 --4. Вывести минимальную стоимость товаров для каждой категории (проекция: названиекатегории, минстоимость_товаров)
 SELECT
-Categories.CategoryID,
+Categories.CategoryName,
 MIN(Price)
 FROM Products
 JOIN Categories ON Categories.CategoryID = Products.CategoryID
-GROUP BY Categories.CategoryID
+GROUP BY Products.CategoryID
 
 --5. Вывести данные о заказах (проекция: номерзаказа, стоимостьзаказа)
 SELECT
@@ -46,7 +46,7 @@ FROM OrderDetails
 JOIN Orders ON OrderDetails.OrderID = Orders.OrderID
 JOIN Employees ON Employees.EmployeeID = Orders.EmployeeID
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
-GROUP BY Employees.LastName
+GROUP BY Employees.EmployeeID
 
 --7. Описание приложенной схемы БД "аудио-хостинг" функционалом плейлистов и групповых чатов
 https://dbdiagram.io/d/Audio-hosting-6611298103593b6b6156818d
