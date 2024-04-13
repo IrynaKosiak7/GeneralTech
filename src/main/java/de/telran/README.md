@@ -25,3 +25,6 @@
 -[Homework 8]
 - В рамках БД "интернет-магазин (песочница)" (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework8.sql)
 - схемa БД "аудио-хостинг" (https://dbdiagram.io/d/Audio-hosting-6611298103593b6b6156818d )
+
+-[Homework 9]
+- задачи (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework9.sql)
