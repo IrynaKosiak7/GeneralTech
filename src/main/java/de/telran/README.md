@@ -28,3 +28,7 @@
 
 -[Homework 9]
 - задачи (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework9.sql)
+  
+- -[Homework 10]
+- описание схемы БД "онлайн-школа" с помощью инструмента онлайн-проектирования (https://dbdiagram.io/d/online_school-6620d8e403593b6b614fae20)
+- задача в репозитории 211123  (https://github.com/AndreiBakhtinov/211123/pull/43)
