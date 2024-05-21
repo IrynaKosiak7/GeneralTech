@@ -15,19 +15,16 @@ create Table friends(
 --2. Добавить в таблицу друзей несколько записей
 INSERT INTO friends(user_id, phone_number, name)
 VALUES
-(1, '+380675497384', 'Ivan'),
-(2, '+380507892483', 'Olga'),
-(3, '+7311958955485', 'David'),
-(4, '+0157234925657', 'Mike'),
-(5, '+421955856552', 'Lisa'),
-(6, '+3104578624855', 'Ken'),
-(7, '+4978249617753', 'Barbie')
+(1, '+3806754973', 'Ivan'),
+(2, '+3805078924', 'Petr'),
+(3, '+73119589554', 'Iryna'),
+(4, '+01572349256', 'Divan'),
+(5, '+4219558565', 'Michael')
 
 --3. Вывести сумму всех транзакций отдельно по каждой валюте (в упорядоченном виде)
-select
-accounts.currency,
-sum(txs.amount) as sum_amount_by_currency
-FROM txs
-JOIN accounts on txs.sender_account_id = accounts.id
-GROUP by accounts.currency
-order by sum_amount_by_currency asc
+SELECT currency,
+sum(amount) as total_sum
+FROM transact
+join accounts on transact.sender_account_id = accounts.id
+group by currency
+order by total_sum ASC
