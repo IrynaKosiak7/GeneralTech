@@ -37,4 +37,9 @@
 - создание таблиц реакций и комментариев для видео-хостинга в MySQL (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/HomeworkInMySQL.sql)
 
 -[Homework 12]
-- Создать таблицу друзей, добавить несколько записей, вывести сумму всех транзакций отдельно по каждой валюте (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework_16_05.sql)
+- Создать таблицу друзей, добавить несколько записей, вывести сумму всех транзакций отдельно по каждой валюте (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/Homework_16_05.js)
+
+- 
+- -[Homework 13]
+- Создать таблицу друзей, добавить несколько записей, вывести сумму всех транзакций отдельно по каждой валюте (https://github.com/IrynaKosiak7/GeneralTech/blob/master/src/main/java/de/telran/VideoHostingTagTest.js)
+
